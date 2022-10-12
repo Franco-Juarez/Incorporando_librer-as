@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <title>Productos</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <div class="cartImg">
+                <button id="modalBtn">
+                    <img src="img/cart.png" alt="logo de carrito de compras">
+                    <span id="totalAmount">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <main class="d-flex flex-column justify-content-center align-items-center w-100">
+        <header class="productHeader">
+            <h1>PRODUCTOS</h1>
+        </header>
+        <section  class="d-flex w-100">
+            <div class="container w-100 productContainer">
+                <div class="row align-items-start flex-nowrap m-0 w-100">
+                    <div class="productFilter col-2">
+                        <div>
+                            <ul>
+                                <h3>Género</h3>
+                                <li>House</li>
+                                <li>Hip Hop</li>
+                                <li>Lo-Fi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <h3>Ordenar de:</h3>
+                                <li>de mayor a menor</li>
+                                <li>de menor a mayor</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <h3>Instrumento</h3>
+                                <li>Drum Kit</li>
+                                <li>Piano</li>
+                                <li>Bajo</li>
+                                <li>Sintetizador</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-10" id="productContainer"> 
+                    </div>
+                </div>
+            </div>
+            <aside class="asideNone bg-dark col-sm">
+                <span id="exitBtn" aria-hidden="true">&times;</span>
+                    <div class="d-flex flex-column align-items-center">
+                        <div id="cartContainer">
+                            <header class="d-flex justify-content-between align-items-center">
+                                <h5>Carrito de compra</h5>
+                            </header>
+                            <div id="cartListContainer"></div>
+                        </div>
+                            <button id="finalBuyBtn" class="btn btn-outline-light">COMPRAR: $0</button>
+                    </div>
+            </aside>
+        </section>
+    </main>
+</body>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./src/dataBase.js" type="module"></script>
+<script src="./src/actionCart.js" type="module"></script>
+<script src="./src/updateCart.js" type="module"></script>
+<script src="./src/storage.js" type="module"></script>
+<script src="./src/cart.js" type="module"></script>
+<script src="./app.js" type="module"></script>
+<script src="./index.js" type="module"></script>
+
+</html>

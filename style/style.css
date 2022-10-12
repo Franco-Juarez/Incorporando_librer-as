@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: calc(100% - 1px);
+    background-color: rgba(251, 194, 79, 1);
+}
+
+.navbar {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    top: 40px; 
+}
+
+.navbar-brand img{
+    width: 45%;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+ul li {
+    padding-right: 1.2rem;
+}
+
+.navbar .shopNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar .shopNav p{
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+.navbar .shopNav p:hover{
+ color: rgba(251, 194, 79, 1);
+}
+
+
+.navbar .shopNav img{
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+.mainDisplay {
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.heroTextDisplay {
+    margin-left: 2rem;
+}
+
+.indexImg {
+    width: 47%;
+
+}
+
+.indexImg img{
+    width: 100%;
+}
+
+.card {
+    width: 10%;
+}
+
+.cartImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.cartImg button {
+    width: 18%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartImg span {
+    padding-left: 3%;
+    font-size: 1.5rem;
+}
+
+
+.productHeader {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.productFilter {
+    background-color: rgba(251, 194, 79, 1);
+    padding: 1%;
+}
+
+.productContainer {
+    margin: 0 5%;
+}
+
+.card img {
+    width: 100%;
+}
+
+#productContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+#productContainer .card {
+    width: 90%;
+}
+
+#cartFinalPrice {
+    color: white;
+    padding-right: 2rem;
+}
+
+#totalAmount {
+    color: #000000;
+    padding: 0 1.5rem;
+}
+
+.asideNone {
+    display: none;
+}
+
+
+#cardListContainer div {
+    padding: 0;
+}
+
+header button {
+    border: none;
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 10px;
+    background-color: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+}
+
+header button:hover {
+    color: blac;
+    background-color: rgb(241, 50, 50);
+    font-weight: 700;
+}
+
+header h5 {
+    font-size: 1rem;
+    padding: 0 0.6rem;
+}
+
+.cartList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartList ul {
+    list-style: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.productNameBold {
+    font-weight: 700;
+}
+
+#cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+}
+
+#cartContainer .btn {
+    width: 80%;
+    text-align: center;
+    margin: 3% 0;
+}
+
+#cartListContainer {
+    padding: 2%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+#cartListContainer button {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        color: white;
+        font: inherit;
+        cursor: pointer;
+}
+
+.btnEmployee {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 350px;
+}
+
+article {
+    padding: 2% 0;
+}
+
+.aside {
+    display: block;
+    color: rgb(231, 231, 231);
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    box-shadow: 0px 25px 40px #47474733;
+    position: fixed;
+    width: 30%;
+    position: fixed; 
+    z-index: 1; 
+    top: 30%;
+    left: 35%;
+    overflow: auto;
+}
+
+
+.aside p {
+    padding: 0 1rem;
+    margin: 0.5% 0;
+}
+
+.aside span {
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+#finalBuyBtn {
+    width: 90%;
+    margin-bottom: 2%;
+}
