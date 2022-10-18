@@ -1,4 +1,4 @@
-import { productCollection } from "./dataBase.js";
+import { getProduct } from "./getProduct.js";
 import { getShoppingCart } from "./storage.js";
 import { updateTotalCart } from "./updateCart.js";
 
@@ -24,8 +24,9 @@ const productValidation = (idProduct) => {
 }
 
 //FUNCIÓN PARA PUSHEAR UN NUEVO OBJETO AL ARRAY Y AGREGAR UN ELEMENTO CON LOS DATOS DE MISMO
-const addProductToCart = (idProduct) => {
+const addProductToCart = async (idProduct) => {
     const container = document.getElementById('cartListContainer');
+    const productCollection = await getProduct();
     const product = productCollection.find(product => product.idProduct == idProduct);
     product.amount++;
     shoppingCart.push(product);

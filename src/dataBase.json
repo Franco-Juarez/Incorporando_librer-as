@@ -1,0 +1,99 @@
+
+[ 
+    {
+    "idProduct": 8,
+    "name": "Grabación",
+    "price": 500,
+    "img": "img/samplePack.jpg",
+    "alt": "",
+    "amount": 0,
+    "desc": "",
+    "sales": 0,
+    "profit": 0
+    },
+
+    {
+    "idProduct": 7,
+    "name": "Tutorial",
+    "price": 1000,
+    "img":"img/samplePackI.jpg",
+    "alt":"texto alternativo",
+    "amount": 0,
+    "desc": "",
+    "sales": 0,
+    "profit": 0
+    },
+
+    {
+    "idProduct":6,
+    "name":"Midi Pack",
+    "price":1350,
+    "img":"img/drumSampler.jpg",
+    "alt":"texto alternativo",
+    "amount":0,
+    "desc":"",
+    "sales":0,
+    "profit":0
+    },
+
+    {
+    "idProduct":5,
+    "name":"Sample Pack",
+    "price":1500,
+    "img":"img/lofiPack.jpg",
+    "alt":"texto alternativo",
+    "amount":0,
+    "desc":"",
+    "sales":0,
+    "profit":0
+    },
+
+    {
+    "idProduct":4,
+    "name":"Grabación",
+    "price":500,
+    "img":"img/samplePack.jpg",
+    "alt":"",
+    "amount":0,
+    "desc":"",
+    "sales":0,
+    "profit":0
+    },
+
+    {
+    "idProduct":3,
+    "name":"Tutorial",
+    "price":1000,
+    "img":"img/samplePackI.jpg",
+    "alt":"texto alternativo",
+    "amount":0,
+    "desc":"",
+    "sales":0,
+    "profit":0
+    },
+
+    {
+    "idProduct":2,
+    "name":"Midi Pack",
+    "price":1350,
+    "img":"img/drumSampler.jpg",
+    "alt":"texto alternativo",
+    "amount":0,
+    "desc":"",
+    "sales":0,
+    "profit":0
+    },
+
+    {
+        "idProduct":1,
+        "name":"Sample Pack",
+        "price":1500,
+        "img":"img/lofiPack.jpg",
+        "alt":"texto alternativo",
+        "amount":0,
+        "desc":"",
+        "sales":0,
+        "profit":0
+    }
+
+]

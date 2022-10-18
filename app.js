@@ -1,10 +1,12 @@
 import { productValidation } from "./src/actionCart.js";
+import { getProduct } from "./src/getProduct.js";
 
 //FUNCIÓN PARA RENDERIZAR LOS PRODUCTOS EN EL DOM A PARTIR DE UN ARRAY DE OBJETOS
 
-const addCards = (productCollection) => {
+const addCards = async () => {
 
     const productContainer = document.getElementById("productContainer");
+    const productCollection = await getProduct();
 
     productCollection.forEach(product => {
         const article = document.createElement('article');
