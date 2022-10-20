@@ -2,69 +2,74 @@
 [ 
     {
     "idProduct": 8,
-    "name": "Grabación",
+    "name": "Modulus Techno",
     "price": 500,
-    "img": "img/samplePack.jpg",
+    "img": "img/products/techno.jpg",
     "alt": "",
     "amount": 0,
     "desc": "",
     "sales": 0,
-    "profit": 0
+    "profit": 0,
+    "genre": "electronica"
     },
 
     {
     "idProduct": 7,
-    "name": "Tutorial",
+    "name": "Percusiones",
     "price": 1000,
-    "img":"img/samplePackI.jpg",
+    "img":"img/products/argPerc.jpg",
     "alt":"texto alternativo",
     "amount": 0,
     "desc": "",
     "sales": 0,
-    "profit": 0
+    "profit": 0,
+    "genre": "electronica"
     },
 
     {
     "idProduct":6,
-    "name":"Midi Pack",
+    "name":"Minimal House",
     "price":1350,
-    "img":"img/drumSampler.jpg",
+    "img":"img/products/minimal.jpg",
     "alt":"texto alternativo",
     "amount":0,
     "desc":"",
     "sales":0,
-    "profit":0
+    "profit":0,
+    "genre": "electronica"
     },
 
     {
     "idProduct":5,
-    "name":"Sample Pack",
+    "name":"Analog Cat Drums",
     "price":1500,
-    "img":"img/lofiPack.jpg",
+    "img":"img/products/analogCat.jpg",
     "alt":"texto alternativo",
     "amount":0,
     "desc":"",
     "sales":0,
-    "profit":0
+    "profit":0,
+    "genre": "loFi"
     },
 
     {
     "idProduct":4,
-    "name":"Grabación",
+    "name":"Lo-Fi Essentials",
     "price":500,
-    "img":"img/samplePack.jpg",
+    "img":"img/products/samplePack.jpg",
     "alt":"",
     "amount":0,
     "desc":"",
     "sales":0,
-    "profit":0
+    "profit":0,
+    "genre": "hipHop"
     },
 
     {
     "idProduct":3,
     "name":"Tutorial",
     "price":1000,
-    "img":"img/samplePackI.jpg",
+    "img":"img/products/samplePackI.jpg",
     "alt":"texto alternativo",
     "amount":0,
     "desc":"",
@@ -76,24 +81,26 @@
     "idProduct":2,
     "name":"Midi Pack",
     "price":1350,
-    "img":"img/drumSampler.jpg",
+    "img":"img/products/drumSampler.jpg",
     "alt":"texto alternativo",
     "amount":0,
     "desc":"",
     "sales":0,
-    "profit":0
+    "profit":0,
+    "genre": "loFi"
     },
 
     {
         "idProduct":1,
         "name":"Sample Pack",
         "price":1500,
-        "img":"img/lofiPack.jpg",
+        "img":"img/products/lofiPack.jpg",
         "alt":"texto alternativo",
         "amount":0,
         "desc":"",
         "sales":0,
-        "profit":0
+        "profit":0,
+        "genre": "hipHop"
     }
 
 ]

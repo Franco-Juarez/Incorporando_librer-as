@@ -33,29 +33,17 @@
             <div class="container w-100 productContainer">
                 <div class="row align-items-start flex-nowrap m-0 w-100">
                     <div class="productFilter col-2">
-                        <div>
-                            <ul>
-                                <h3>Género</h3>
-                                <li>House</li>
-                                <li>Hip Hop</li>
-                                <li>Lo-Fi</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <h3>Ordenar de:</h3>
-                                <li>de mayor a menor</li>
-                                <li>de menor a mayor</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <h3>Instrumento</h3>
-                                <li>Drum Kit</li>
-                                <li>Piano</li>
-                                <li>Bajo</li>
-                                <li>Sintetizador</li>
-                            </ul>
+                        <div class="filterDiv">
+                            <form id="formFilter">
+                                <label for="genres">Filtrar por género</label>
+                                <select name="genres" id="genres">
+                                    <option value="hipHop">Hip Hop</option>
+                                    <option value="electronica">Electrónica</option>
+                                    <option value="loFi">Lo-Fi</option>
+                                </select>
+                                <input type="submit" value="Filtrar" />
+                            </form>
+                            <button id="deleteFilter">Eliminar filtro</button>
                         </div>
                     </div>
                     <div class="col-10" id="productContainer"> 
@@ -82,6 +70,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script src="./src/actionCart.js" type="module"></script>
 <script src="./src/updateCart.js" type="module"></script>
+<script src="./filters.js" type="module"></script>
 <script src="./src/storage.js" type="module"></script>
 <script src="./src/getProduct.js" type="module"></script>
 <script src="./src/cart.js" type="module"></script>
