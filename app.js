@@ -60,7 +60,7 @@ const addCards = async () => {
                                 </div>
                                 `
                 productContainer.appendChild(article);
-                // buyProduct();
+
                 //NO SE CÓMO VOLVER A INVOCAR LA FUNCIONALIDAD PARA COMPRAR EL PRODUCTO SOBRE LOS NUEVOS RENDERIZADOS
             })
             
@@ -74,7 +74,6 @@ const deleteFilter = document.getElementById("deleteFilter");
             productsCards.forEach(element => {
                 element.remove();
             });
-            addCards();
         })
 
 export { addCards };
