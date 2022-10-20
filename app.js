@@ -60,7 +60,7 @@ const addCards = async () => {
                                 </div>
                                 `
                 productContainer.appendChild(article);
-
+                
                 //NO SE CÓMO VOLVER A INVOCAR LA FUNCIONALIDAD PARA COMPRAR EL PRODUCTO SOBRE LOS NUEVOS RENDERIZADOS
             })
             
@@ -68,13 +68,13 @@ const addCards = async () => {
     });
 }
 
-        const deleteFilter = document.getElementById("deleteFilter");
+const deleteFilter = document.getElementById("deleteFilter");
         deleteFilter.addEventListener("click", () =>{
             const productsCards = document.querySelectorAll('.card');
             productsCards.forEach(element => {
                 element.remove();
-                addCards();
             });
+            addCards();
         })
 
 export { addCards };
