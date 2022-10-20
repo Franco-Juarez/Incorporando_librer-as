@@ -68,11 +68,12 @@ const addCards = async () => {
     });
 }
 
-const deleteFilter = document.getElementById("deleteFilter");
+        const deleteFilter = document.getElementById("deleteFilter");
         deleteFilter.addEventListener("click", () =>{
             const productsCards = document.querySelectorAll('.card');
             productsCards.forEach(element => {
                 element.remove();
+                addCards();
             });
         })
 
