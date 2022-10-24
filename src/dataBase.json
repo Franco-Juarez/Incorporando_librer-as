@@ -79,7 +79,7 @@
 
     {
     "idProduct":2,
-    "name":"Midi Pack",
+    "name":"Lo-Fi Midi Drums",
     "price":1350,
     "img":"img/products/drumSampler.jpg",
     "alt":"texto alternativo",
@@ -92,7 +92,7 @@
 
     {
         "idProduct":1,
-        "name":"Sample Pack",
+        "name":"Hip Hop Essentials",
         "price":1500,
         "img":"img/products/lofiPack.jpg",
         "alt":"texto alternativo",

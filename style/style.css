@@ -311,6 +311,9 @@ article {
     padding: .5rem 1.25rem;
 }
 
+#newsletterForm input:last-child:hover {
+    padding: .8rem 1.5rem;
+}
 
 .card-body button {
     background-color: rgba(251, 194, 79, 1);

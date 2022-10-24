@@ -15,6 +15,3 @@ const getProduct = async () => {
 }
 
 export {getProduct};
-
-
-

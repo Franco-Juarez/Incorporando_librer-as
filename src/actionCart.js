@@ -83,6 +83,7 @@ const deleteProductCart = (idProduct) => {
 
 const deleteAllProductCart = () => {
     updateTotalCart([]);
+    recoverShoppingCart([]);
 }
 
 

@@ -14,8 +14,7 @@ const sendEmail = async (body) => {
         body: JSON.stringify(body),
         }
     const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', settings);
-    const data = await response.json();
-    return data;
+    return response;
 };
 
 newsletterForm.addEventListener('submit', (e) => {
@@ -34,7 +33,14 @@ newsletterForm.addEventListener('submit', (e) => {
 
     sendEmail(body) 
         .then((response) => {
-            console.log(response.text);
+            console.log(response.status);
+            Toastify({
+                text: "Tu mensaje ha sido enviado correctamente",
+                duration: 1500,
+                style: {
+                    background: "linear-gradient(to right, #ffb347, #ffcc33)",
+                },
+            }).showToast();
         })
         .catch((error) => {
             console.log(error);
